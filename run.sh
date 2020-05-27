@@ -51,7 +51,7 @@ fi
 
 export PYTHONPATH=$PYTHONPATH:$(pwd):$(pwd)/fomm
 
-python afy/cam_fomm.py \
+python3 afy/cam_fomm.py \
     --config $FOMM_CONFIG \
     --checkpoint $FOMM_CKPT \
     --virt-cam $CAMID_VIRT \
